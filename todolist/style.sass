@@ -1,0 +1,96 @@
+$bg_color:#D05663
+$border_color:#2A403D
+$whitetext:#f3f3f3
+    
+/* -------------------------------------- */    
+*
+    // border: solid 1px
+    position: relative
+    font-family: 微軟正黑體
+
+body,html
+    width: 100%
+    height: 100%
+    margin: 0
+    display: flex
+    justify-content: center
+    align-items: center
+
+h1 
+    position: relative
+    margin-left: -20px
+    margin-right: -20px
+    margin-top: -20px
+    padding: 20px
+    border-bottom: solid 4px $border_color
+    text-align: center
+    background-color: $bg_color
+    color: #f3f3f3
+
+#buylist
+    display: inline-block
+    border: solid 1px
+    padding: 20px
+    border: solid 4px $border_color
+
+.buytop
+    border: solid 4px $border_color
+    padding: 20px
+    
+
+    & label
+        font-weight: bold
+
+
+    & span
+        cursor: pointer
+        border: solid 4px $border_color
+        margin-left: 10px
+        padding: 2px
+        font-weight: bold
+        transition: 0.3s
+
+        &:hover
+            background-color: $bg_color
+            color: $whitetext
+            
+    & input 
+        border: solid 4px $border_color
+
+#itemlist
+    padding: 10px
+    & .delbuyitem
+        background-color: $bg_color
+        color: $whitetext
+
+    & .buyitem 
+        list-style: none 
+        border: solid 4px $border_color
+        margin-top: 10px
+        padding: 5px 5px
+        font-weight: bold
+
+        & .price
+            position: absolute
+            display: inline-block
+            right: 55px
+            padding: 0px 5px
+            background-color: #C3CBD6
+            &::after
+                content: "$"
+
+        & .price_1
+            background-color: transparent
+
+        & .delbtn
+            cursor: pointer
+            transition: 0.3s
+            position: absolute
+            display: inline-block
+            padding: 0px 5px
+            right: 15px
+            &:hover
+                background-color: $bg_color
+                color: $whitetext
+            
+    

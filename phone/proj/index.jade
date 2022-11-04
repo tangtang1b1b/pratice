@@ -1,0 +1,49 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="style.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap")
+        script(src="/JS/jquery.js") 
+        title phone
+    body
+        .phone
+            .top 
+                .camara 
+            .mid
+                .pages
+                    .page.page1
+                        h2 Orange
+                        h1 橘
+                        svg.jump(viewbox="-50 -50 110 110")
+                            g
+                                circle(cx=0 cy=-33 r=15)
+                                    animate(attributeName="r" dur="2s" values="15;20;15;10;15" repeatCount="indefinite")
+                                circle(cx=0 cy=-3 r=15)
+                                circle(cx=0 cy=27 r=15)
+                                    animate(attributeName="r" dur="2s" values="15;10;15;20;15" repeatCount="indefinite")
+                                animateTransform(attributeName="transform" type="rotate" dur="5s" values="0;360" repeatCount="indefinite")
+
+                    .page.page2
+                        h2 page2
+                        p 橘子（學名：Citrus reticulata）是芸香科柑桔屬的一種水果。「橘」（ㄐㄩˊ）和「桔」（ㄐㄧㄝˊ）都是現代漢語規範字，然「桔」作橘子一義時，為「橘」的俗寫[1]。在廣東的一些方言中二字同音，「桔」也曾做過「橘」的二簡字。閩南語稱橘為柑仔。西南官話區的各方言中呼為「柑子」或「柑兒」。
+                    .page.page3
+                        h2 page3
+                        p 柑和橘都屬於芸香科柑橘屬的寬皮柑橘類，果實外皮肥厚，內藏瓤瓣，由汁泡和種子構成。李時珍在《本草綱目·果部》中記載：「橘實小，其瓣味微醋（即酸），其皮薄而紅，味辛而苦；柑大於橘，其瓣味酢，其皮稍厚而黃，葉辛而甘。」一般說來，柑的果形正圓，黃赤色，皮緊紋細不易剝，多汁甘香；橘的果形扁圓，紅或黃色，皮薄而光滑易剝，味微甘酸。柑和橘雖有區別，但在日常語言中常混用，如廣柑也說廣橘，蜜橘也說蜜柑。
+            .bottom
+                .button □
+        h3 The "Best" iphone we've ever made!
+        h1.type iphone5 
+        .buttonss 
+            button.i5 iphone5
+            button.i5s iphone5s
+            button.i6 iphone6
+            button.i6s iphone6s
+            button.rotat Turn around
+            button.wiggle Wiggle
+            
+
+
+        script(src="/all.js")  

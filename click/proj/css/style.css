@@ -1,0 +1,32 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+html, body {
+  padding: 10px;
+}
+
+.button, .setitem, .moveinout, .timeover, .timeokay {
+  border: solid 2px;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.button:hover, .setitem:hover, .moveinout:hover, .timeover:hover, .timeokay:hover {
+  border: solid 2px black;
+  background-color: #555;
+  color: #fff;
+}
+
+.buybuy {
+  border: solid 2px black;
+  background-color: red;
+  color: #fff;
+}
+.buybuy:hover {
+  border: solid 2px black;
+  background-color: red;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

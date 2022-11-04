@@ -1,0 +1,72 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+svg {
+  border: solid 2px;
+  width: 240px;
+}
+
+#pic1, #pic2 {
+  stroke: black;
+  stroke-width: 2px;
+}
+#pic1 circle, #pic2 circle {
+  fill: #fff;
+}
+#pic1 rect, #pic2 rect {
+  fill: none;
+}
+
+#pic3 circle {
+  fill: none;
+  stroke: black;
+}
+#pic3 polyline {
+  fill: none;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+#pic5 rect {
+  fill: none;
+  stroke: black;
+  stroke-width: 1px;
+}
+#pic5 line {
+  stroke: black;
+  stroke-width: 1px;
+}
+#pic5 circle {
+  fill: blue;
+}
+#pic5 text {
+  font-size: 12px;
+}
+#pic5 .outside, #pic5 .inside, #pic5 .body, #pic5 .foot {
+  transform: scale(0);
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+  transform-origin: 0px 25px;
+}
+#pic5 .top, #pic5 .down, #pic5 .cir {
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+#pic5:hover {
+  cursor: pointer;
+}
+#pic5:hover .outside, #pic5:hover .inside, #pic5:hover .body, #pic5:hover .foot {
+  transform: scale(1);
+  transition-duration: 0.5s;
+  transition-delay: 0s;
+}
+#pic5:hover .top, #pic5:hover .down, #pic5:hover .cir {
+  opacity: 1;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+}
+#pic5:hover .txxt {
+  fill: blue;
+}

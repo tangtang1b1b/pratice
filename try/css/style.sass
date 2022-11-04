@@ -1,0 +1,56 @@
+*
+    //border: solid 1px
+
+
+@mixin size($w,$h)
+    width: $w
+    height: $h
+    
+.box 
+    +size(500px,500px)
+    position: relative
+    transition-duration: 0.2s
+
+    & h1,& p
+        position: relative
+        opacity: 0
+        top: 10px
+        transition-duration: 0.5s
+
+    & p
+        transition-delay: 0.3s
+
+    &:hover
+        cursor: pointer
+    &:active
+        background-color: red
+
+    &:hover h1,&:hover p
+        opacity: 1
+        top: 0px
+
+    & .box1,& .box2
+        +size(100px,100px)
+        position: absolute
+        bottom: 0px
+
+    & .box1
+        left: 50px
+        animation: ani1 1.5s infinite
+        border: solid 1px
+
+    & .box2
+        left: 250px
+
+
+@keyframes ani1
+    0%
+        bottom: 200px
+    50%
+        bottom: 0px
+        border-radius: 50%
+        background-color: #333              
+    100%
+        bottom: 200px
+
+        

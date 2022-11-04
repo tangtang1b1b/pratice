@@ -1,0 +1,68 @@
+*
+    font-family: 微軟正黑體
+svg
+    border: solid 2px
+    width: 240px
+
+#pic1,#pic2
+    stroke: black
+    stroke-width: 2px
+
+    & circle
+        fill: #fff
+    
+    & rect
+        fill: none
+
+#pic3
+    & circle
+        fill: none
+        stroke: black
+    & polyline
+        fill: none
+        stroke: black
+        stroke-width: 1px
+
+#pic5
+    & rect 
+        fill: none
+        stroke: black
+        stroke-width: 1px
+    & line
+        stroke: black
+        stroke-width: 1px 
+    & circle
+        fill: blue
+    & text 
+        font-size: 12px
+    
+    & .outside,.inside,.body,.foot
+        transform: scale(0)
+        transition-duration: 0.5s
+        transition-delay:0.5s
+        transform-origin:  0px 25px
+       
+
+    & .top,.down,.cir
+        opacity: 0
+        transition-duration: 0.5s
+
+    & .txxt
+
+
+    &:hover
+        cursor: pointer
+        & .outside,.inside,.body,.foot
+            transform: scale(1)
+            transition-duration: 0.5s
+            transition-delay:0s
+        & .top,.down,.cir
+            opacity: 1
+            transition-duration: 0.5s
+            transition-delay:0.5s
+        & .txxt
+            fill: blue
+
+        
+
+    

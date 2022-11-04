@@ -1,0 +1,78 @@
+*{
+    //border: solid 1px;
+    font-family: 微軟正黑體;
+    position: relative;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: #464646;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.namecard{
+    overflow: hidden;
+    background-color: #e2eae7;
+    top: 50%;
+    transform: translateY(-50%);
+    //border: solid 1px;
+    border-radius: 3px;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 20px 15px -10px rgba(0,0,0,0.5 );
+}
+
+.name{
+    display: inline-block;
+    
+}
+
+.ename{
+    font-size: 10px;
+    left: 3px;
+}
+
+.main{
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+.want{
+    color: rgb(124, 59, 59);
+}
+
+.do{
+    font-size: 12px;
+}
+
+.intro{
+    font-size: 14px;
+}
+
+.circle{
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(255, 97, 97);
+    width: 100px;
+    height: 100px;
+    right: -20px;
+    top: 20px;
+    z-index: 1;
+}
+
+.squa{
+    background-color: rgb(38, 19, 247);
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    opacity: 0.1;
+    bottom: -90px;
+    right: -750px;
+    transform: rotate(60deg);
+}

@@ -1,0 +1,25 @@
+.block {
+  border: solid 1px;
+  width: 100px;
+  height: 100px;
+  background-color: #777;
+}
+
+.circle {
+  border-radius: 100%;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.big {
+  width: 300px;
+  height: 300px;
+}
+
+.gogo {
+  border-radius: 20%;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+}

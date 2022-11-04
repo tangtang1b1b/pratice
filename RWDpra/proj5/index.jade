@@ -1,0 +1,116 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/css/style.css")
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js") 
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css") 
+        title Document
+    body
+        a.totop(href="#" style="text-decoration: none") 
+
+
+        nav.navbar.navbar-default.navbar-fixed-top.navbar-top
+            
+            .container
+                .navbar-header
+                    a.navbar-brand 首頁
+                .navbar-collapse.collapse
+                    .nav.navbar-nav.navbar-right
+                        li
+                            a(href="#sectionask") 引言 INTRO
+                        li
+                            a(href="#sectionstory") 簡介 ABOUT
+                        li
+                            a(href="#sectionmap") 故事 STORY
+                        li
+                            a(href="#sectionnow") 未來 FUTURE
+
+        header#head.jumbotron 
+            .container 
+                h1(data-0="transform: translateY(-50px)"
+                   data-500="transform: translateY(100px)") 印刷術，知識的複製與革命
+                hr
+                h4 對人類文化知識的傳播起到了決定性的作用
+        
+        section#sectionask
+            .container 
+                .row 
+                    .col-md-5(data-200="transform: translateX(-100px)"
+                              data-500="transform: translateX(0px)") 
+                    .col-md-7 
+                        h2(data-200="transform: translateX(100px);opacity: 0"
+                           data-500="transform: translateX(0px);opacity: 1") 如果今天沒有印表機，一本書需要花多久產生呢?
+
+        section#sectionstory
+            .container
+                .row 
+                    .col-sm-12
+                        h1 印刷的故事
+                    .col-md-4 
+                        .stt(data-bottom-top="opacity: 0" data--200-bottom="opacity: 1")
+                            img(src="https://awiclass.monoame.com/img/web1_print/sec_print_1.jpeg", alt="")
+                        h3(data-bottom-top="opacity: 0;transform: translateY(50px)" data--150-bottom="opacity: 1;transform: translateY(0px)") 起源
+                        p(data-bottom-top="opacity: 0;transform: translateY(50px)" data--150-bottom="opacity: 1;transform: translateY(0px)") 世界上最早的雕版印刷是中國發明的。十九世紀末曾有日本學者島田主張中國在6世紀的六朝就有雕版印刷，根據是北齊顏之推《顏氏家訓》有「書本」一詞；又根據明《河汾燕閑錄》中「隋開皇十三年十二月八日敕廢像遺經悉令雕版」一語，認為最晚在隋朝已有雕版印刷。
+                    .col-md-4
+                        .stt(data-bottom-top="opacity: 0" data--200-bottom="opacity: 1") 
+                            img(src="https://awiclass.monoame.com/img/web1_print/sec_print_2.jpeg", alt="")
+                        h3(data-bottom-top="opacity: 0;transform: translateY(50px)" data--150-bottom="opacity: 1;transform: translateY(0px)") 活字印刷 
+                        p(data-bottom-top="opacity: 0;transform: translateY(50px)" data--150-bottom="opacity: 1;transform: translateY(0px)") 由中國北宋1040年的畢昇發明。由當時著名科學家沈括的《夢溪筆談》記載保存，完整無遺地包括制字、貯字、排版、拆板和刷印等一整套活字印刷術工序，與後世鉛字排版的原理完全相同。<br><br>畢昇發明的膠泥活字印刷經過精心設計，反覆試驗才獲得成功。早期活字印刷品的陸續發現和泥活字實證研究成果，證實了畢昇活字印刷術的真實性和科學性，有力地否定了國外學者對畢昇發明活字印刷術的質疑。
+                    .col-md-4 
+                        .stt(data-bottom-top="opacity: 0" data--200-bottom="opacity: 1")
+                            img(src="https://awiclass.monoame.com/img/web1_print/sec_print_3.jpeg", alt="")
+                        h3(data-bottom-top="opacity: 0;transform: translateY(50px)" data--150-bottom="opacity: 1;transform: translateY(0px)") 歐洲
+                        p(data-bottom-top="opacity: 0;transform: translateY(50px)" data--150-bottom="opacity: 1;transform: translateY(0px)") 歐洲同中國一樣，最先出現的是雕版印刷，爾後出現的是活字印刷。歐洲人發現中國的活字印刷比雕版印刷效率更高於是很快就把雕版印刷淘汰掉了。<br><br>關於中國印刷術傳入歐洲的路線，在很多著作中所談的有三條。一條是歐洲的傳教士和旅行家直接把中國的印刷術帶到歐洲；另一條是經由中亞、西亞、北非，最後傳到歐洲；第三條則是由俄國人傳到歐洲其他國家。
+
+        section#sectionmap
+            .container-fluid 
+                .row 
+                    .col-md-5.map(data-bottom-top="background-size: 150%; background-position: 0% 0%" data--150-bottom="background-size: 100%; background-position: 50% 50%")
+                    .col-md-7
+                        .col-md-12.main
+                            h2 印刷對知識傳播的影響
+                            hr 
+                        .col-md-4(data-bottom-top="transform: scale(1.6); opacity: 0" data-center="transform: scale(1); opacity: 1")
+                            i.fa.fa-files-o 
+                            h4 快速複製
+                        .col-md-4(data-bottom-top="transform: scale(1.6); opacity: 0" data-center="transform: scale(1); opacity: 1")
+                            i.fa.fa-files-o 
+                            h4 快速複製
+                        .col-md-4(data-bottom-top="transform: scale(1.6); opacity: 0" data-center="transform: scale(1); opacity: 1")
+                            i.fa.fa-files-o 
+                            h4 快速複製
+                        .col-md-12.down 
+                            p 印刷機的開發使知識的傳播發生了革命性的變化：1469年在威尼斯成立第一家印刷社（即出版社），1500年該城就有印刷廠417家。1476年，威廉·卡克斯頓在英格蘭成立第一家印刷社°在1539年，西班牙人Juan Pablos在墨西哥的墨西哥城。Stephen Day於1628年在美國麻塞諸塞海灣地區建立了北美第一家印刷社，並協助成立了劍橋出版社。
+
+        section#sectionnow
+            .container
+                .row 
+                    .col-md-12 
+                        h2 現代的印刷術
+                        hr
+                    .col-md-6
+                        img(src="https://awiclass.monoame.com/img/web1_print/new_print.jpeg", alt="") 
+                    .col-md-6 
+                        .col-md-12(data-bottom-top="transform: translateX(100px)" data--100-bottom="transform: translateY(0px)")
+                            h3 電腦印刷
+                            p 文件可通過雷射印字機、噴墨印表機或其它電腦印表機。在最近幾年，計算機列印和工業化印刷工藝已經融合在一起，導致數位印刷的發展。
+                            p 在電子技術迅速發展的過程中，印刷進入了電子控制和自動化的時期，電子排版、電子分色、電子雕版廣泛應用，在印刷質量和效率上都得到了巨大提高。計算機的應用繼續將印刷帶入了數字印刷時代，使傳統工藝難於完成的小品種、多變化印刷得以順利實現。
+                        .col-md-12(data-bottom-top="transform: translateX(100px)" data--100-bottom="transform: translateY(0px)")
+                            h3 三維列印
+                            p 三維列印 是一種製造技術，物體是由三維文件和三維印表機生成。物體製造是通過一層層材料的疊加而列印出來. 在2012年, 一些公司例如Sculpteo或Shapeways提出網上的三維列印解決方案.
+
+        footer.jumbotron 
+            .container 
+                h2 想了解更多印刷相關的故事嗎?
+                input.form-control(placeholder="Email")
+                hr
+                button.btn.btn-default 訂閱故事  
+
+        script(src="/all.js")
+        

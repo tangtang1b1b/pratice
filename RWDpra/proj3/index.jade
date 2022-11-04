@@ -1,0 +1,77 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css")
+        link(rel="stylesheet", href="/css/style.css")
+        title Document
+    body 
+        .jumbotron 
+            .container 
+                h1 Hello Bootstrap!
+                p bootstrap是個很多人使用的網頁模板，裡面有很多別人寫好的現成css資源，也有用來排版很方便的網格系統。
+                a.btn.btn-primary(href="https://bootstrap.hexschool.com/" target="_blank") 了解更多(中文說明文件)
+
+        .container
+            h3.page-header 如果可以寫完html就刻完網頁的設計哲學
+            img.img-responsive(src="https://png.pngtree.com/png-vector/20190115/ourmid/pngtree-cartoon-love-red-love-heart-shaped-dialog-png-image_368186.jpg")
+            h3.page-header 按鈕的大小與調整
+            p
+                .btn.btn-default.btn-xs 前往報名課程
+                .btn.btn-primary 主要的按鈕
+                .btn.btn-danger.btn-lg 警告危險
+                .btn.btn-warning 警告!!!
+                .btn.btn-success.btn-xs 成功!
+
+            <br>
+            <br>
+            
+            .btn-group 
+                .btn.btn-default 首頁
+                .btn.btn-default 招生
+                .btn.btn-default 捐贈
+                .btn.btn-default 認識
+            
+            h3.page-header 麵包屑導覽列
+            ul.breadcrumb  
+                li 動態網頁課程
+                li bootstrap介紹
+                li 第一個範例
+            
+            h3.page-header 清單練習
+            ul.list-group
+                li.list-group-item.active 清單
+                    span.badge 14
+                li.list-group-item.disabled 按鈕
+                li.list-group-item 麵包屑尋覽列
+                li.list-group-item 麵包屑尋覽列
+            
+            h3.page-header 表格練習
+            table.table.table-bordered
+                thead 
+                    tr 
+                        th who
+                        th where
+                        th why
+                tr 
+                    td 123
+                    td 123
+                    td 123
+                tr 
+                    td 123
+                    td 123
+                    td 123
+                tr 
+                    td 123
+                    td 123
+                    td 123
+
+
+
+
+
+
+
+        script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js") 

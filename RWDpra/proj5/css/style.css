@@ -1,0 +1,155 @@
+* {
+  position: relative;
+}
+
+a.totop {
+  display: block;
+  box-shadow: 0px 0px 3px #3DBC1A;
+  color: #333;
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  background-color: #fff;
+  font-size: 30px;
+  border-radius: 4px;
+  text-align: center;
+  right: -120px;
+  bottom: 20px;
+  z-index: 1;
+  cursor: pointer;
+  transition: 0.5s;
+}
+a.totop:hover {
+  color: #333;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+nav.navbar {
+  transition: 0.5s;
+}
+nav.navbar .container .navbar-collapse.collapse a {
+  transition: 0.5s;
+}
+nav.navbar .container .navbar-collapse.collapse a:hover {
+  color: #3DBC1A;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: #fff;
+  transition: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #3DBC1A;
+}
+
+header.jumbotron {
+  background-image: url(https://www.newsmarket.com.tw/jp-regional/files/2018/04/A7A1712-1800-r.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  height: 100vh;
+}
+header.jumbotron .container {
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+header.jumbotron .container hr {
+  border: solid 2px #3DBC1A;
+  background-color: #3DBC1A;
+  max-width: 100px;
+  margin-top: 30px;
+}
+header.jumbotron .container h4 {
+  margin-top: 30px;
+  opacity: 0.6;
+}
+
+section#sectionask {
+  background-color: #DBC1AD;
+}
+section#sectionask .container .col-md-5 {
+  height: 350px;
+  background-image: url(https://images.vocus.cc/83fec466-513e-4c27-b754-64edba16b8bd.jpeg);
+  background-size: cover;
+  background-position: center center;
+}
+section#sectionask .container .col-md-7 h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#sectionstory .container .col-md-4 .stt {
+  height: 300px;
+  overflow: hidden;
+}
+section#sectionstory .container .col-md-4 .stt img {
+  width: 170%;
+}
+
+section#sectionmap {
+  background-color: #222;
+  color: #fff;
+  padding: 0;
+}
+section#sectionmap .container-fluid .main {
+  text-align: center;
+  margin-bottom: 40px;
+}
+section#sectionmap .container-fluid .col-md-5.map {
+  background-size: 100% auto;
+  background-image: url(https://awiclass.monoame.com/img/web1_print/map.gif);
+  height: 400px;
+}
+section#sectionmap .container-fluid .down {
+  margin-top: 40px;
+}
+section#sectionmap .container-fluid .col-md-7 {
+  text-align: center;
+}
+section#sectionmap .container-fluid .col-md-7 .col-md-4 i {
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  font-size: 50px;
+}
+
+footer.jumbotron {
+  background-image: url(https://www.newsmarket.com.tw/jp-regional/files/2018/04/A7A1712-1800-r.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+footer.jumbotron .container {
+  padding: 60px 0px;
+  text-align: center;
+  color: #fff;
+}
+footer.jumbotron .container input {
+  margin-top: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 350px;
+  background-color: transparent;
+}
+footer.jumbotron .container hr {
+  border: solid 2px #3DBC1A;
+  background-color: #3DBC1A;
+  max-width: 50px;
+  margin-top: 30px;
+}
+footer.jumbotron .container button {
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */

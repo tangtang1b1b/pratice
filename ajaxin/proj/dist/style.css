@@ -1,0 +1,127 @@
+@charset "UTF-8";
+* {
+  position: relative;
+  font-family: 微軟正黑體;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #555;
+}
+
+.itemlist {
+  padding: 5px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  border: solid 5px #E60D53;
+  width: 300px;
+  box-shadow: 0px 5px 20px 0px;
+  animation: drop 1s both;
+}
+.itemlist h3 {
+  text-align: center;
+  font-size: 24px;
+  animation: upup 1s both;
+  animation-delay: 0.5s;
+}
+
+hr {
+  animation: upup 1s both;
+  animation-delay: 1s;
+}
+
+ul {
+  list-style: none;
+  font-size: 18px;
+  padding-left: 20px;
+  animation: upup 1s both;
+  animation-delay: 1.5s;
+}
+
+#list {
+  margin-top: 15px;
+  padding-left: 5px;
+}
+
+.gogo::before {
+  display: inline-block;
+  position: absolute;
+  left: -15px;
+  content: " ✓ ";
+  color: red;
+}
+
+.date {
+  position: absolute;
+  right: 30px;
+}
+
+.name {
+  position: absolute;
+  text-align: right;
+  left: 50px;
+}
+
+.name, .date {
+  display: inline-block;
+}
+
+li:nth-child(1) {
+  animation: upup 1s both;
+  animation-delay: 1.5s;
+}
+
+li:nth-child(2) {
+  animation: upup 1s both;
+  animation-delay: 1.6s;
+}
+
+li:nth-child(3) {
+  animation: upup 1s both;
+  animation-delay: 1.7s;
+}
+
+li:nth-child(4) {
+  animation: upup 1s both;
+  animation-delay: 1.8s;
+}
+
+li:nth-child(5) {
+  animation: upup 1s both;
+  animation-delay: 1.9s;
+}
+
+li:nth-child(6) {
+  animation: upup 1s both;
+  animation-delay: 2s;
+}
+
+li:nth-child(7) {
+  animation: upup 1s both;
+  animation-delay: 2.1s;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0%;
+    transform: scale(0%);
+  }
+  100% {
+    opacity: 100%;
+    transform: scale(100%);
+  }
+}
+@keyframes upup {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 100;
+  }
+}
